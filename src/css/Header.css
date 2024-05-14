@@ -1,0 +1,140 @@
+/* Header.css */
+.header {
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.language-select {
+  position: relative;
+  margin-right: 20px; /* Добавлен отступ справа */
+}
+
+.selected-language {
+  cursor: pointer;
+  padding: 5px; /* Уменьшенный отступ для компактности */
+  border-radius: 3px; /* Добавлены скругленные углы */
+  border: 1px solid transparent; /* Добавлен контур */
+}
+
+.selected-language:hover {
+  border-color: #fff; /* Изменен цвет контура при наведении */
+}
+
+.language-options {
+  position: absolute;
+  top: calc(100% + 5px); /* Увеличен отступ относительно выбранного языка */
+  right: 0;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.language-options div {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.language-options div:hover {
+  background-color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar.active .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+  }
+
+  .navbar.active .nav-links a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar.active .language-options {
+    top: calc(100% + 20px);
+  }
+}
+.language-select {
+  margin-left: 20px;
+}
+
+.selected-language {
+  padding: 5px;
+}
+
+.language-options {
+  top: calc(100% + 10px);
+}
+
+@media screen and (max-width: 768px) {
+  .language-select {
+    margin-left: auto;
+  }
+
+  .nav-links a {
+    margin-bottom: 15px;
+  }
+
+  .menu-icon {
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .language-options {
+    right: 10px;
+  }
+
+  .language-options div {
+    padding: 8px;
+  }
+}

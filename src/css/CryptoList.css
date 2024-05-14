@@ -1,0 +1,108 @@
+.crypto-info h3 {
+  margin: 0;
+}
+
+.crypto-info p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.crypto-price {
+  font-size: 24px;
+  margin-top: auto;
+}
+
+.crypto-chart {
+  margin-top: 20px;
+}
+
+.crypto-change {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.crypto-change .up {
+  color: green;
+}
+
+.crypto-change .down {
+  color: red;
+}
+
+.crypto-change span {
+  margin-left: 5px;
+}
+/* CryptoList.css */
+
+.crypto-info h3 {
+  margin-top: 0;
+}
+
+.crypto-info p {
+  font-size: 14px;
+  color: #888;
+}
+
+.crypto-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.crypto-change {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.up {
+  color: green;
+  margin-right: 5px;
+}
+
+.down {
+  color: red;
+  margin-right: 5px;
+}
+
+.crypto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.crypto-item {
+  width: 200px;
+  /* height: 250px; */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  margin: 1px; /* Изменяем отступы между плитками */
+  margin-bottom: -5px;
+}
+
+.cryptoLists {
+  background-color: rgb(43, 42, 42);
+}
+.crypto-container {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 1420px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера по горизонтали */
+}
+.crypto-info {
+  margin-bottom: 10px;
+}
+
+.crypto-price {
+  font-weight: bold;
+}
+
+.crypto-chart {
+  margin-bottom: 10px;
+  height: 100px; /* Устанавливаем высоту графика */
+}

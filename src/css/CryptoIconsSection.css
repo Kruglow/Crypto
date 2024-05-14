@@ -1,0 +1,29 @@
+.crypto-icons-section {
+  background-color: #1f1f1f; /* Цвет фона */
+  padding: 80px 0; /* Отступы */
+}
+
+.container {
+  /* max-width: 1200px; Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрирование */
+  padding: 0 15px; /* Отступы по краям */
+}
+
+.crypto-icons-content {
+  text-align: center; /* Выравнивание текста по центру */
+  color: #ffffff; /* Цвет текста */
+}
+
+.section-title {
+  font-size: 36px; /* Размер заголовка */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+.section-description {
+  font-size: 18px; /* Размер текста */
+  margin-bottom: 40px; /* Отступ снизу */
+}
+
+.crypto-icons img {
+  max-width: 100%; /* Максимальная ширина изображения */
+}

@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.wallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asset {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.asset h2 {
+  margin-bottom: 10px;
+}
+
+.asset p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
